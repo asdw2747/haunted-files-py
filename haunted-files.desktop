@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Haunted Files
+GenericName=Atmospheric File Browser
+Comment=Browse a folder as an abandoned room
+Exec=/home/zachbcg/Projects/haunted-files-py/run.sh %f
+Icon=/home/zachbcg/Projects/haunted-files-py/docs/icon.png
+Terminal=false
+Categories=Utility;FileTools;
+StartupNotify=true
