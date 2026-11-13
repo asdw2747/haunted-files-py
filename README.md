@@ -5,7 +5,6 @@ A file browser that is also an abandoned room.
 Folders are doors. Files are objects on the floor. Things that used to be
 here linger as ghosts. Everything is read-only.
 
-![room](docs/room.png)
 
 ## Run
 
