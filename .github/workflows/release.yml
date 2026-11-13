@@ -84,9 +84,11 @@ jobs:
           EOF
           chmod +x AppDir/AppRun
 
-          wget -q -O appimagetool https://github.com
+          curl -fL -o appimagetool https://github.com/AppImage/appimagetool/releases/download/1.9.0/appimagetool-x86_64.AppImage
+
           chmod +x appimagetool
           ARCH=x86_64 ./appimagetool --appimage-extract-and-run AppDir "${APP_NAME}-${TAG}-x86_64.AppImage"
+
       - uses: softprops/action-gh-release@v2
         with:
           files: ${{ env.APP_NAME }}-*-x86_64.AppImage
